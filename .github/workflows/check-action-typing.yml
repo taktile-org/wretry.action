@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check Action Typing
-        uses: typesafegithub/github-actions-typing@v2
+        uses: typesafegithub/github-actions-typing@184d97003b1300f6a10e286eb98c191e416ff02b # v2.2.1
