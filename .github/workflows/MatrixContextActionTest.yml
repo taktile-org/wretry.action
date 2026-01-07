@@ -12,7 +12,7 @@ jobs :
     runs-on : ${{ matrix.os }}
     steps :
     - name : Run action with job status
-      uses : Wandalen/wretry.action@master
+      uses : Wandalen/wretry.action@e94c43bf2e865e7dbbd90b0c1061053f5888932a # master
       with :
         action : dmvict/test.action@defaults_from_matrix_context
         attempt_limit : 3
